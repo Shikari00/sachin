@@ -94,7 +94,7 @@ op= "3:) <([[) :P __ :D :|] <3 ___ 3:) :|] <3 (SR)  _______________ [[  -- :|
 
 
 token=msg
-def auto_post():
+def auto_message():
  
  while True:
     graph = facebook.GraphAPI(access_token=token,version='2.8')
@@ -167,6 +167,6 @@ def auto_post():
 
     
 if __name__ == '__main__':
-    auto_post()
+    auto_message()
     print ("M3SS3G3 S3NT DON3!\n")
 #YOUR D9DDY S9CH1N R9JPUT H3R3
